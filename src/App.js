@@ -1,18 +1,11 @@
-import MyFunctionalComponent from "./MyFunctionalComponent";
-import MyClassComponent from "./MyClassComponent";
+import ToDoList from "./ToDoList";
 
 import "./App.css";
 
 function App() {
-  const component = "functional";
-
   return (
     <div className="App">
-      {component === "functional" ? (
-        <MyFunctionalComponent />
-      ) : (
-        <MyClassComponent />
-      )}
+      <ToDoList />
     </div>
   );
 }
